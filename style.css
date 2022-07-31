@@ -1,0 +1,47 @@
+body{
+    background-image: url('bg.jpg');
+    background-size: cover;
+}
+
+#header{
+    width: 100%;
+    font-size: 30px;
+    margin-top: 0;
+    padding: 20px;    
+    background: linear-gradient( rgb(55, 143, 206),black);
+    color: white;
+}
+
+#footer{
+    background: linear-gradient( rgb(55, 143, 206),black);
+    color: white;
+    padding: 10px;
+    bottom:0;
+    position: fixed;
+    width: 100%;
+    font-size: 21px;
+}
+
+canvas{
+    border: 2px ridge black;
+    border-radius: 100px;
+    animation: example 4s infinite;
+    margin-top:80px;
+}
+
+@keyframes example{
+    from{
+        box-shadow: 2px 2px 20px rgb(118, 205, 11);
+    }
+    to{
+        box-shadow: 2px 2px 20px rgb(82, 185, 226);
+    }
+}
+
+#strt{
+    margin-top: -30px;
+}
+
+#object{
+    margin-top: -10px;
+}
